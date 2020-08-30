@@ -11,6 +11,8 @@ Location transparency can be addressed by a pattern called `Service Discovery`
 
 Netflix OSS to the rescue!
 
+### Netflix OSS
+
 `Netflix OSS` is a set of frameworks and libraries that Netflix wrote to solve some interesting distributed-systems problems at scale.
 Today, for Java developers, it’s pretty synonymous with developing microservices in a cloud environment.
 Patterns for service discovery, load balancing, fault-tolerance, etc are incredibly important concepts for scalable distributed systems and Netflix brings nice solutions for these.
@@ -19,5 +21,6 @@ With Netflix OSS you typically need to set up a service-discovery server that ac
 
 The service discovery that we are talking about here is `Netflix Eureka`
 
+### Eureka Server 
 Eureka Server is in itself a microservice to which all other microservices registers.
 Eureka Clients are the independent microservices. We will see how to configure this in a microservice ecosystem.
