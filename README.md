@@ -9,13 +9,13 @@ But, these locations may change over time. Location transparency in such a case 
 
 Location transparency can be addressed by a pattern called `Service Discovery`
 
-Netflix OSS to the rescue!
+`Netflix OSS` to the rescue!
 
 ### Netflix OSS
 
-`Netflix OSS` is a set of frameworks and libraries that Netflix wrote to solve some interesting distributed-systems problems at scale.
-Today, for Java developers, it’s pretty synonymous with developing microservices in a cloud environment.
-Patterns for service discovery, load balancing, fault-tolerance, etc are incredibly important concepts for scalable distributed systems and Netflix brings nice solutions for these.
+Netflix OSS is a set of frameworks and libraries that Netflix wrote to solve some interesting distributed-systems problems at scale.
+Today, it’s pretty synonymous with developing microservices in a cloud environment.
+Patterns for service discovery are incredibly important concepts for scalable distributed systems and Netflix brings nice solutions for these.
 
 With Netflix OSS you typically need to set up a service-discovery server that acts as a registry of endpoints that can be discovered with various clients.
 
