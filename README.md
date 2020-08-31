@@ -24,3 +24,6 @@ The service discovery that we are talking about here is `Netflix Eureka`
 ### Eureka Server 
 Eureka Server is in itself a microservice to which all other microservices registers.
 Eureka Clients are the independent microservices. We will see how to configure this in a microservice ecosystem.
+
+Run the main class : `com.ankit.spring.boot.eureka.EurekaServerApplication` as a Java application.<br>
+Open `localhost:8761` to view the HTML view for Eureka Server.
